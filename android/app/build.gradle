@@ -26,6 +26,8 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    namespace "com.example.tmdb_movie_app_riverpod"
+
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
